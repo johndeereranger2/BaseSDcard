@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaseSDcard</string>
+    <string name="file_name">File Name</string>
+    <string name="file_date_and_time_stamp">File Date and Time stamp</string>
+</resources>
