@@ -1,8 +1,10 @@
 package com.deerbrain.basesdcard
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +28,9 @@ class MainActivity : AppCompatActivity() {
 
     fun connectedButtonPressed() {
         if (isSDCardReaderConnected == true) {
-
+            val intent = Intent(this, CardReader::class.java)
+            startActivity(intent)
+            //pass in the the base file directory
         } else {
             Toast.makeText(this,"No SD Card Reader Connected",Toast.LENGTH_SHORT).show()
         }

@@ -8,4 +8,5 @@ import kotlinx.android.synthetic.main.file_tableviewcell.view.*
 class FileCell(termView: View):RecyclerView.ViewHolder(termView) {
     val fileLabel: TextView = termView.fileLabel
     val fileDate: TextView = termView.fileTimeStampLabel
+    val root = termView
 }
