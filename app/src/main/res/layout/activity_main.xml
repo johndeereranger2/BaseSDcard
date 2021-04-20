@@ -42,4 +42,17 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
+    <Button
+        android:id="@+id/goToMap"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:text="Go to Map"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/fakeConnectedSDCard"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,15 @@ class CardFileManager {
     //this is the file that will communicate directly with the SD card
 
 
+//    fun getFilesWithPath(path: String) : MutableList<FileItem> {
+//
+//        var itemsFromSDCard = mutableListOf<FileItem>()
+//
+//        //Do work to populate itemsFromSDCard
+//
+//        return itemsFromSDCard
+//    }
+
     fun getFilesWithPath(path: String) : MutableList<FileItem> {
         var itemsFromSDCard = mutableListOf<FileItem>()
         var date = Date()

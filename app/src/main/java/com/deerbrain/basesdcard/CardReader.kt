@@ -14,20 +14,20 @@ class CardReader : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.cardreader)
 
         updateRecyclerView()
 
     }
 
     private fun updateRecyclerView() {
-        var itemtwo = FileItem(
-            fileName = "File Name Zero",
-            fileDateString = "filezeroDatestring"
-        )
-        itemsFromSDCard.add(itemtwo)
+//        var itemtwo = FileItem(
+//            fileName = "File Name Zero",
+//            fileDateString = "filezeroDatestring"
+//        )
+//        itemsFromSDCard.add(itemtwo)
 
-       // itemsFromSDCard = CardFileManager().getFilesWithPath("")
+        itemsFromSDCard = CardFileManager().getFilesWithPath("")
         //updateDisplayItems(directory)
         CardReaderItemList.layoutManager = LinearLayoutManager(this)
         val cardReaderInfo = CardReaderAdapter()

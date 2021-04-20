@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "386055257866",
+    "firebase_url": "https://deerbrainmap.firebaseio.com",
+    "project_id": "deerbrainmap",
+    "storage_bucket": "deerbrainmap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386055257866:android:0fb220a316e95f68e404f3",
+        "android_client_info": {
+          "package_name": "com.deerbrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386055257866-om3ihsoc70lshts0picohdtqvtt42uqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv3v-6eCIuofSVfJAuZD4yHJEUivfvHcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386055257866-om3ihsoc70lshts0picohdtqvtt42uqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386055257866:android:caa05105e5c4b675e404f3",
+        "android_client_info": {
+          "package_name": "com.deerbrain.deerbrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386055257866-fpjrh8dol3dfb8ra31jbld9pkiiov867.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deerbrain.deerbrain",
+            "certificate_hash": "5e21f6d583fc8df2cf24fa07e68bb377214885df"
+          }
+        },
+        {
+          "client_id": "386055257866-om3ihsoc70lshts0picohdtqvtt42uqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv3v-6eCIuofSVfJAuZD4yHJEUivfvHcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386055257866-om3ihsoc70lshts0picohdtqvtt42uqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

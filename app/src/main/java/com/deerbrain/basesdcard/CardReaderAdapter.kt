@@ -1,6 +1,7 @@
 package com.deerbrain.basesdcard
 
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -39,6 +40,7 @@ class CardReaderAdapter(): RecyclerView.Adapter<FileCell>() {
 
 
     fun didSelectItem(item: FileItem) {
+        Log.i("Realm", "didSelectItem")
         val fileExtensionType = item.fileName //gets extension of file name like jpg/mov etc
 
 

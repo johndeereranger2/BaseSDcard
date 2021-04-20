@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
             fakeConnecedSDCardButtonPressed()
         }
 
+        goToMap.setOnClickListener {
+            val intent = Intent(this, CardReader::class.java)
+            startActivity(intent)
+        }
+
 
     }
 
