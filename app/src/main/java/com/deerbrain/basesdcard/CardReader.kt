@@ -21,8 +21,13 @@ class CardReader : AppCompatActivity() {
     }
 
     private fun updateRecyclerView() {
+        var itemtwo = FileItem(
+            fileName = "File Name Zero",
+            fileDateString = "filezeroDatestring"
+        )
+        itemsFromSDCard.add(itemtwo)
 
-        itemsFromSDCard = CardFileManager().getFilesWithPath("")
+       // itemsFromSDCard = CardFileManager().getFilesWithPath("")
         //updateDisplayItems(directory)
         CardReaderItemList.layoutManager = LinearLayoutManager(this)
         val cardReaderInfo = CardReaderAdapter()
